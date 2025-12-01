@@ -2,6 +2,15 @@
 layout: default
 title: Contact Me
 ---
-* [cite_start]**Email:** [melkyed@gmail.com](mailto:melkyed@gmail.com) [cite: 5]
-* [cite_start]**GitHub:** [github.com/melkyed](https://github.com/melkyed) [cite: 5]
-* [cite_start]**Phone:** +1 437-999-6736 [cite: 5]
+
+I am currently open to opportunities in Data Science, Data Engineering, and Actuarial R&D.
+
+### Get in Touch
+
+* **Email:** [melkyed@gmail.com](mailto:melkyed@gmail.com)
+* **Email:** [melkamu@rogers.com](mailto:melkamu@rogers.com)
+* **Location:** Toronto, ON
+
+### Professional Links
+* **GitHub:** [github.com/melkyed](https://github.com/melkyed)
+* **LinkedIn:** *(https://www.linkedin.com/in/melkamugishu/)*
