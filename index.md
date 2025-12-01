@@ -1,43 +1,47 @@
 ---
 layout: default
 title: Melkamu Gishu
-description: Senior Data Scientist | MSc Applied Statistics, BSc Applied Mathematics
 ---
 
-Welcome to my professional portfolio.
+# Senior Data Scientist & Statistician
 
-I am a Data Scientist holding a **MSc. in Applied Statistics** and a **BSc. in Applied Mathematics** with over 8 years of experience. I specialize in applying advanced quantitative and predictive modeling to solve complex problems across finance, healthcare, and education.
+I am a quantitative expert with over **8 years of experience** bridging the gap between complex statistical theory and actionable business solutions. Holding an **MSc in Applied Statistics** and a **BSc in Applied Mathematics**, I specialize in building predictive models, optimizing cloud architectures, and driving innovation across finance, healthcare, and education.
 
-I manage the full data lifecycle: from the architectural groundwork of ETL, pipeline development, and cloud migration utilizing **Databricks-PySpark** and **SQL** to optimize enterprise data management to the final delivery of visualization.
+Currently, I focus on the full data lifecycle—from architectural groundwork using **Databricks, PySpark, and Azure**, to advanced machine learning implementation and executive-level visualization.
 
-My technical expertise extends to AI and research. I leverage a blend of statistical theory and technical fluency in **Python, R, and cloud tools** to drive measurable business value and innovation.
+---
 
-### Explore My Work
+### Portfolio Highlights
 
 <div class="dashboard-grid">
+
   <div class="card">
-    <h3>Experience</h3>
-    <p>8+ years in Data Science at TD Bank, Frontier, and more.</p>
-    <a href="/experience" class="card-link">View Resume</a>
+    <h3>Professional Experience</h3>
+    <p>Lead Data Engineer & Scientist roles at TD Bank Group, Frontier, and CDC-CHAMPS.</p>
+    <a href="/experience" class="card-link">View Career History &rarr;</a>
   </div>
+
   <div class="card">
-    <h3>Publications</h3>
-    <p>Research on global health statistics and Bayesian modeling.</p>
-    <a href="/publications" class="card-link">Read Papers</a>
+    <h3>Research & Publications</h3>
+    <p>Author of multiple peer-reviewed papers on Bayesian modeling and global health statistics.</p>
+    <a href="/publications" class="card-link">Read Publications &rarr;</a>
   </div>
+
   <div class="card">
-    <h3>Projects</h3>
-    <p>Implementations in AI, Machine Learning, and Cloud Computing.</p>
-    <a href="/projects" class="card-link">See Projects</a>
+    <h3>Technical Projects</h3>
+    <p>Scalable implementations in AI, NLP, and Cloud Computing (Azure/AWS).</p>
+    <a href="/projects" class="card-link">View Projects &rarr;</a>
   </div>
+
   <div class="card">
-    <h3>Contact</h3>
-    <p>Get in touch for collaboration or recruitment.</p>
-    <a href="/contact" class="card-link">Email Me</a>
+    <h3>Contact & Connect</h3>
+    <p>Open for collaboration in Data Science and Actuarial R&D.</p>
+    <a href="/contact" class="card-link">Get in Touch &rarr;</a>
   </div>
+
 </div>
 
 <br>
 
-### Recent Highlight
-**Senior Data Engineer at TD Bank Group:** Managed end-to-end data lifecycle for cloud and migration projects on the Azure Platform (Databricks, PySpark, Python, SQL, Bash), spanning requirements gathering, development, SIT/PAT testing, production deployment, and post-production support.
+### Recent Impact
+**Senior Data Engineer at TD Bank Group:** Spearheaded the end-to-end data lifecycle for cloud migration projects on Azure. Designed robust ETL frameworks and optimized pipelines using PySpark and SQL, significantly enhancing enterprise data management and processing efficiency.
