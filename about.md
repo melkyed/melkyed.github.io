@@ -16,11 +16,9 @@ Business Intelligence & Leadership: I bridge technical and business teams by tra
 
 In addition to my corporate work, I am a published researcher with a strong academic foundation in Bayesian hierarchical modeling and global health statistics. I combine this rigorous academic background with technical fluency to drive innovation, data integrity, and measurable business value.
 ### Education
-* **MSc in Applied Statistics** | Hawassa University (2012–2014)
-* **BSc in Applied Mathematics** | Hawassa University (2008–2012)
-
-### Certifications
 * **Deploying AI Microcredential** | University of Toronto (Ongoing)
-* **Machine Learning Software Foundations Certificate** | University of Toronto
+* **Machine Learning Software Foundations Certificate** | University of Toronto (On.)
 * **Big Data and Advanced Predictive Analysis** | York University (2019)
 * **Research Fellow** | University of Toronto (2018)
+* **MSc in Applied Statistics** | Hawassa University (2012–2014)
+* **BSc in Applied Mathematics** | Hawassa University (2008–2012)
