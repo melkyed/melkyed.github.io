@@ -3,40 +3,40 @@ layout: default
 title: Melkamu Gishu
 ---
 
-# Senior Data Scientist & Statistician
+# Senior Data Scientist
 
-I am a quantitative expert with over **8 years of experience** bridging the gap between complex statistical theory and actionable business solutions. Holding an **MSc in Applied Statistics** and a **BSc in Applied Mathematics**, I specialize in building predictive models, optimizing cloud architectures, and driving innovation across finance, healthcare, and education.
-
-Currently, I focus on the full data lifecycle—from architectural groundwork using **Databricks, PySpark, and Azure**, to advanced machine learning implementation and executive-level visualization.
+A Data Scientist holding a MSc. in Applied Statistics and a BSc. in Applied Mathematics with over **8 years of experience** who specializes in applying advanced quantitative and predictive modeling to solve complex problems across finance, healthcare, and education.
+Managed full data lifecycle: from the architectural groundwork of ETL, pipeline development, cloud migration utilizing Databricks-PySpark, and SQL to optimize enterprise data management to the final delivery of visualization.
+My technical expertise extends to AI and research. I also authored multiple publications on global health statistics and Bayesian modeling. I leverage blend of statistical theory and technical fluency in Python, R, and cloud tools to drive measurable business value and innovation.
 
 ---
 
-### Portfolio Highlights
+### Explore My Work
 
 <div class="dashboard-grid">
 
   <div class="card">
-    <h3>Professional Experience</h3>
-    <p>Lead Data Engineer & Scientist roles at TD Bank Group, Frontier, and CDC-CHAMPS.</p>
-    <a href="/experience" class="card-link">View Career History &rarr;</a>
+    <h3>About Me</h3>
+    <p>My background in Applied Statistics, Mathematics, and Cloud Engineering.</p>
+    <a href="/about" class="card-link">Read Bio &rarr;</a>
   </div>
 
   <div class="card">
-    <h3>Research & Publications</h3>
-    <p>Author of multiple peer-reviewed papers on Bayesian modeling and global health statistics.</p>
-    <a href="/publications" class="card-link">Read Publications &rarr;</a>
+    <h3>Experience</h3>
+    <p>8+ years at TD Bank, Frontier, CDC-CHAMPS, and Oromia Bank.</p>
+    <a href="/experience" class="card-link">View Resume &rarr;</a>
   </div>
 
   <div class="card">
-    <h3>Technical Projects</h3>
-    <p>Scalable implementations in AI, NLP, and Cloud Computing (Azure/AWS).</p>
+    <h3>Publications</h3>
+    <p>Research on Bayesian modeling and global health statistics.</p>
+    <a href="/publications" class="card-link">Read Papers &rarr;</a>
+  </div>
+
+  <div class="card">
+    <h3>Projects</h3>
+    <p>Technical implementations in AI, NLP, and MLOps.</p>
     <a href="/projects" class="card-link">View Projects &rarr;</a>
-  </div>
-
-  <div class="card">
-    <h3>Contact & Connect</h3>
-    <p>Open for collaboration in Data Science and Actuarial R&D.</p>
-    <a href="/contact" class="card-link">Get in Touch &rarr;</a>
   </div>
 
 </div>
