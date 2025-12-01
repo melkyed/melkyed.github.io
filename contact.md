@@ -3,7 +3,7 @@ layout: default
 title: Contact Me
 ---
 
-I am currently open to opportunities in **Data Science**, **Data Engineering**, and **Actuarial R&D**.
+
 
 ### Get in Touch
 

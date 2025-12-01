@@ -9,14 +9,14 @@
 
 body {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    line-height: 1.7;
+    line-height: 1.8; /* Increased line-height for better readability */
     color: #444;
     background-color: var(--light);
     margin: 0;
     padding: 0;
 }
 
-/* STANDARD NAVIGATION BAR (One Row) */
+/* NAVIGATION BAR */
 .navbar {
     background: var(--white);
     box-shadow: 0 1px 10px rgba(0,0,0,0.05);
@@ -27,12 +27,12 @@ body {
 }
 
 .nav-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px;
-    height: 70px; /* Fixed height for consistency */
+    max-width: 1000px;     /* Maximum width */
+    width: 90%;            /* CRITICAL FIX: Leaves 5% space on sides */
+    margin: 0 auto;        /* Centers the bar */
+    height: 70px;
     display: flex;
-    justify-content: space-between; /* Pushes Name left, Links right */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -45,11 +45,11 @@ body {
     text-decoration: none;
 }
 
+/* NAVIGATION LINKS */
 .nav-links {
     display: flex;
-    gap: 20px; /* Reduces space slightly to fit more items */
-    flex-wrap: wrap; /* CRITICAL: This prevents tabs from disappearing */
-    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap; /* Prevents disappearing tabs on small screens */
 }
 
 .nav-links a {
@@ -67,23 +67,17 @@ body {
     border-bottom: 2px solid var(--accent);
 }
 
-.nav-btn {
-    padding: 8px 18px;
-    border-radius: 50px;
-    background: var(--primary);
-    color: white !important;
-}
-.nav-btn:hover { background: var(--accent); }
-
-/* MAIN LAYOUT */
+/* MAIN CONTENT WRAPPER - THE "PAPER" */
 .wrapper {
-    max-width: 850px;
-    margin: 40px auto;
-    padding: 40px;
+    max-width: 800px;      /* Restricts reading width (like Medium.com) */
+    width: 90%;            /* CRITICAL FIX: Ensures borders never touch edges */
+    margin: 40px auto;     /* Centers the paper vertically and horizontally */
+    padding: 50px 60px;    /* Adds ample space INSIDE the box */
     background: var(--white);
     border-radius: 8px;
     box-shadow: 0 5px 25px rgba(0,0,0,0.03);
     min-height: 60vh;
+    box-sizing: border-box; /* Ensures padding doesn't break width */
 }
 
 /* TYPOGRAPHY */
@@ -91,13 +85,15 @@ h1 { color: var(--dark); margin-bottom: 15px; font-size: 2.2rem; }
 h2 { color: var(--primary); border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; margin-top: 40px; }
 h3 { color: var(--dark); margin-top: 30px; font-weight: 600; }
 p { margin-bottom: 20px; font-size: 1.05rem; }
+ul { margin-bottom: 20px; padding-left: 20px; }
+li { margin-bottom: 8px; } /* Spacing between bullet points */
 a { color: var(--primary); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-/* THE 2x2 GRID (Preserved) */
+/* THE 2x2 GRID + CONTACT CENTERED */
 .dashboard-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Forced 2 columns */
+    grid-template-columns: 1fr 1fr; /* Two Columns */
     gap: 25px;
     margin-top: 40px;
 }
@@ -110,38 +106,37 @@ a:hover { text-decoration: underline; }
     text-align: center;
     transition: transform 0.2s, box-shadow 0.2s;
 }
+
 .card:hover { 
     transform: translateY(-5px); 
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
     border-color: var(--primary); 
 }
+
 .card h3 { margin-top: 0; color: var(--primary); font-size: 1.2rem; }
 .card p { font-size: 0.95rem; color: #666; margin-bottom: 20px; }
 .card-link { font-weight: 600; font-size: 0.9rem; }
 
-/* FOOTER & SOCIALS */
+/* Center the 5th card (Contact) */
+.dashboard-grid .card:last-child {
+    grid-column: span 2;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* FOOTER */
 footer { text-align: center; padding: 40px 20px; color: #777; font-size: 0.9rem; }
 .social-links { margin-top: 10px; }
 .social-links a { margin: 0 10px; color: var(--primary); font-weight: 600; }
 
-/* MOBILE RESPONSIVE */
+/* MOBILE RESPONSIVE TWEAKS */
 @media (max-width: 768px) {
-    .nav-container { flex-direction: column; height: auto; padding: 15px; }
-    .nav-links { margin-top: 15px; flex-wrap: wrap; justify-content: center; gap: 15px; }
-    .dashboard-grid { grid-template-columns: 1fr; } /* Stack cards on phone */
-}
-
-/* SPECIAL STYLING FOR LAST CARD (Contact) */
-.dashboard-grid .card:last-child {
-    grid-column: span 2; /* Makes the last card (Contact) stretch across the bottom */
-    max-width: 50%; /* Keeps it small so it doesn't look huge */
-    margin: 0 auto; /* Centers it */
-}
-
-/* Mobile check: On phones, let it fill the width */
-@media (max-width: 600px) {
-    .dashboard-grid .card:last-child {
-        grid-column: span 1;
-        max-width: 100%;
+    .wrapper { 
+        padding: 30px 20px; /* Less internal padding on phones */
+        width: 95%;         /* Use more screen space on phones */
     }
+    .nav-container { padding: 0 10px; }
+    .nav-links { gap: 15px; justify-content: center; }
+    .dashboard-grid { grid-template-columns: 1fr; } /* Stack cards */
+    .dashboard-grid .card:last-child { grid-column: span 1; max-width: 100%; }
 }
