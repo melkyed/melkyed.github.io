@@ -23,7 +23,7 @@ title: Professional Experience
 * Designed and developed innovative Tableau dashboards for data visualization and leveraged Data Mining expertise to drive business insights and inform decision-making.
 
 ### Machine Learning Engineer
-**Oromia International Bank** | **
+**OI Bank** | **
 * Applied advanced ML and statistical modeling to large datasets, solving critical business problems like customer churn and fraud detection.
 * Mastered SQL and data science tools (Python/R) in AWS environment for EDA, NoSQL design, and uncovering trends that directly influenced pricing and marketing strategies.
 * Optimized business processes and SQL Stored Procedures, data quality, and data preparation while ensuring Regulatory Compliance, boosting data processing efficiency by 20%.
