@@ -1,5 +1,6 @@
 title: Melkamu Gishu
-description: Data Scientist | MSc, BSc
-author: Melkamu Gishu
+description: Senior Data Scientist
+url: "https://melkyed.github.io"
+baseurl: ""
 plugins:
   - jekyll-seo-tag
