@@ -67,27 +67,39 @@ p { margin-bottom: 20px; font-size: 1.05rem; }
 a { color: #004b8d; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-/* GRID for Home Page */
+/* GRID for Home Page - FORCED 2x2 LAYOUT */
 .dashboard-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Auto-stacking */
-    gap: 20px;
-    margin-top: 30px;
+    /* The line below forces exactly 2 equal columns */
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px; /* Adds space between the boxes */
+    max-width: 800px; /* Keeps the grid from getting too wide */
+    margin: 40px auto; /* Centers the grid on the page */
 }
 
+/* Card Styling Update */
 .card {
     background: #fff;
-    padding: 20px;
+    padding: 30px; /* More breathing room inside the box */
     border: 1px solid #e1e4e8;
-    border-radius: 6px;
+    border-radius: 8px;
     text-align: center;
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
-.card:hover { transform: translateY(-3px); border-color: #004b8d; }
-.card h3 { margin-top: 0; font-size: 1.1rem; color: #004b8d; }
-.card p { font-size: 0.9rem; color: #666; margin-bottom: 15px; }
-.card-link { display: inline-block; background: #004b8d; color: white !important; padding: 8px 16px; border-radius: 4px; font-size: 0.9rem; }
-.card-link:hover { background: #003666; text-decoration: none; }
+
+.card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: #004b8d; 
+}
+
+/* MOBILE FIX: Stack them in 1 column on phones */
+@media (max-width: 600px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr; /* 1 column on small screens */
+    }
+}
 
 /* FOOTER */
 footer { text-align: center; padding: 40px; color: #888; font-size: 0.9rem; }

@@ -40,4 +40,4 @@ My technical expertise extends to AI and research. I leverage a blend of statist
 <br>
 
 ### Recent Highlight
-[cite_start]**Senior Data Engineer at TD Bank Group:** Managed end-to-end data lifecycle for cloud and migration projects on the Azure Platform (Databricks, PySpark, Python, SQL, Bash), spanning requirements gathering, development, SIT/PAT testing, production deployment, and post-production support[cite: 9].
+**Senior Data Engineer at TD Bank Group:** Managed end-to-end data lifecycle for cloud and migration projects on the Azure Platform (Databricks, PySpark, Python, SQL, Bash), spanning requirements gathering, development, SIT/PAT testing, production deployment, and post-production support.
