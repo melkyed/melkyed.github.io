@@ -1,14 +1,18 @@
-# About Me
+---
+layout: default
+title: About Me
+---
 
-I’m a Data Scientist with a strong background in Applied Statistics and Applied Mathematics. Over the years, I’ve helped organizations in finance, healthcare, and education use data in meaningful ways.
+### Professional Summary
+I manage the full data lifecycle: from the architectural groundwork of ETL, pipeline development, and cloud migration utilizing **Databricks-PySpark** and **SQL** to optimize enterprise data management to the final delivery of visualization.
 
-I manage the full data lifecycle. This includes shaping raw data through ETL, building pipelines, migrating systems to the cloud, creating predictive models, and developing visual products that help teams take action. 
+My technical expertise extends to AI and research. I leverage a blend of statistical theory and technical fluency in **Python, R, and cloud tools** to drive measurable business value and innovation.
 
-My experience includes Databricks, PySpark, SQL, Azure, Python, R, and modern machine learning frameworks. I also have research experience in Bayesian modeling and global health, and I’ve authored several peer-reviewed publications.
+### Education
+* **MSc in Applied Statistics** | [cite_start]Hawassa University (2012–2014) [cite: 30, 31]
+* **BSc in Applied Mathematics** | [cite_start]Hawassa University (2008–2012) [cite: 32, 33, 34]
 
-### A little more background
-- MSc in Applied Statistics  
-- BSc in Applied Mathematics  
-- Experience across banking, research, global health, and data engineering  
-- Hands-on work with big data, cloud tools, and applied ML  
-- Passion for solving complex problems in simple ways  
+### Certifications
+* **Deploying AI Microcredential** | [cite_start]University of Toronto (Ongoing) [cite: 35]
+* **Machine Learning Software Foundations** | [cite_start]University of Toronto [cite: 36]
+* **Big Data and Advanced Predictive Analysis** | [cite_start]York University (2019) [cite: 37, 38]
