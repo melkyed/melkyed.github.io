@@ -39,6 +39,12 @@ My technical expertise extends to AI and research. I also authored multiple publ
     <a href="/projects" class="card-link">View Projects &rarr;</a>
   </div>
 
+  <div class="card">
+    <h3>Contact</h3>
+    <p>Open for collaboration in Data Science and Actuarial R&D.</p>
+    <a href="/contact" class="card-link">Get in Touch &rarr;</a>
+  </div>
+
 </div>
 
 <br>

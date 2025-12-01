@@ -27,3 +27,11 @@ title: Professional Experience
 * Applied advanced ML and statistical modeling to large datasets, solving critical business problems like customer churn and fraud detection.
 * Mastered SQL and data science tools (Python/R) in AWS environment for EDA, NoSQL design, and uncovering trends that directly influenced pricing and marketing strategies.
 * Optimized business processes and SQL Stored Procedures, data quality, and data preparation while ensuring Regulatory Compliance, boosting data processing efficiency by 20%.
+
+### Education
+* **Deploying AI Microcredential** | University of Toronto (Ongoing)
+* **Machine Learning Software Foundations Certificate** | University of Toronto (On.)
+* **Big Data and Advanced Predictive Analysis** | York University (2019)
+* **Research Fellow** | University of Toronto (2018)
+* **MSc in Applied Statistics** | Hawassa University (2012–2014)
+* **BSc in Applied Mathematics** | Hawassa University (2008–2012)

@@ -130,3 +130,18 @@ footer { text-align: center; padding: 40px 20px; color: #777; font-size: 0.9rem;
     .nav-links { margin-top: 15px; flex-wrap: wrap; justify-content: center; gap: 15px; }
     .dashboard-grid { grid-template-columns: 1fr; } /* Stack cards on phone */
 }
+
+/* SPECIAL STYLING FOR LAST CARD (Contact) */
+.dashboard-grid .card:last-child {
+    grid-column: span 2; /* Makes the last card (Contact) stretch across the bottom */
+    max-width: 50%; /* Keeps it small so it doesn't look huge */
+    margin: 0 auto; /* Centers it */
+}
+
+/* Mobile check: On phones, let it fill the width */
+@media (max-width: 600px) {
+    .dashboard-grid .card:last-child {
+        grid-column: span 1;
+        max-width: 100%;
+    }
+}
