@@ -22,3 +22,6 @@ I have authored multiple publications on global health statistics and Bayesian m
 
 6. **Causes of Death among children aged 5 to 14 year olds from 2008 to 2013 in Kersa Health and Demographic Surveillance System.**
    [Read Paper](https://doi.org/10.1371/journal.pone.0151929)
+   
+**ORCID Profile: https://orcid.org/0000-0002-3466-1232.**
+   [More on research and publications](https://orcid.org/0000-0002-3466-1232)
