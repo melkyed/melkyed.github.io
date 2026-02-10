@@ -2,7 +2,7 @@
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-View%20Portfolio-004b8d?style=for-the-badge&logo=github)](https://melkyed.github.io)
 
-This repository hosts the source code for my professional portfolio website. It is a static site built with **Jekyll** and hosted on **GitHub Pages**, designed to showcase my experience in Data Science, Applied Statistics, and Cloud Engineering.
+This repository hosts the source code for my professional portfolio website. It is a static site built with **Jekyll** and hosted on **GitHub Pages**, designed to showcase my experience in Data Science, Applied Statistics, and ML Engineering.
 
 ## 🚀 About The Project
 
