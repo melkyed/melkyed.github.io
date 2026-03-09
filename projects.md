@@ -5,6 +5,15 @@ title: Technical Projects
 
 Here are a few highlights from my recent work.
 
+### Turning Data In To Precision Targeting
+
+<video width="100%" controls>
+  <source src="{{ '/assets/videos/Turning%20data%20in%20to%20precision%20targeting.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+**[Shareable Video Link]({{ '/assets/videos/Turning%20data%20in%20to%20precision%20targeting.mp4' | relative_url }})**
+
 ### Customer Risk Prediction
 Built a predictive model using **Python** and **SQL** that helped identify high-risk customers. Improved accuracy and cut false positives using feature engineering and better data pipelines.
 
